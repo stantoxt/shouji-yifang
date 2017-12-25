@@ -1,0 +1,94 @@
+/*
+* @Author: suntoo_2016_001
+* @Date:   2016-09-14 09:21:03
+* @Last Modified by:   suntoo_2016_001
+* @Last Modified time: 2016-09-19 10:25:53
+*/
+body{background: #efeff4}
+header{
+    width: 100%;
+    position: fixed;
+    
+    height: 45px;
+    top: 0;
+    z-index: 100000;
+    
+}
+header h2{
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    background: #e60012;
+    font-size: 19px;
+}
+
+/* banner */
+.section{padding:0 10px;}
+.banner{
+	width: 100%;padding-top: 45px;
+}
+.banner figure{width: 100%;}
+.banner figure img{width: 100%;display: block;}
+
+.commission{ padding: 10px 10px;background: #fff;margin-bottom: 10px;}
+.commission h2{ font-size: 16px;line-height: 30px;position: relative;
+	padding-left: 6px; }
+.commission h2 em{width: 3px ;height: 16px;background: #e50014;position: absolute;top: 7px;left: 0; margin-right: 5px;}
+.commission li{ overflow: hidden;}
+.commission figure{width: 100%;margin: 5px 0}
+.commission figure img{width: 100%;}
+.commission ul li span{float: left;line-height: 25px;width: 22%;color: #909090;}
+.commission ul li p{float: left;line-height: 25px;width: 78%}
+
+.CustomerSupport{ padding: 10px 10px;background: #fff;margin-bottom: 10px;}
+.CustomerSupport h2{ font-size: 16px;line-height: 30px;position: relative;
+	padding-left: 6px; }
+.CustomerSupport h2 em{width: 3px ;height: 16px;background: #e50014;position: absolute;top: 7px;left: 0; margin-right: 5px;}
+.CustomerSupport li{ overflow: hidden;}
+.CustomerSupport figure{width: 100%;margin: 5px 0}
+.CustomerSupport figure img{width: 100%;}
+.CustomerSupport ul li span{float: left;line-height: 25px;width: 22%;color: #909090;}
+.CustomerSupport ul li p{float: left;line-height: 25px;width: 78%}
+
+.BuildingSupport{ background: #fff;margin-bottom: 10px;}
+.BuildingSupport h2{ font-size: 16px;line-height: 30px;position: relative;
+	padding-left: 6px;margin-left: 10px }
+.BuildingSupport h2 em{width: 3px ;height: 16px;background: #e50014;position: absolute;top: 7px;left: 0; margin-right: 5px;}
+.BuildingSupport ul li{ height: 68px;border-bottom: 1px solid #c8c7cc; }
+.BuildingSupport ul li:last-child{border-bottom: none;}
+.BuildingSupport figure{width: 33px ;height: 33px;margin-left: 22px;margin-right: 20px;margin-top: 16px;}
+.BuildingSupport figure img{ width: 100%;height: 100%;border-radius: 50%; }
+.BuildingSupport div{ line-height: 26px;margin-top: 8px; }
+.BuildingSupport div p{color: #909090;}
+.BuildingSupport div span{ color: #000; }
+.BuildingSupport a img{ width: 15px;height: 15px;margin-top: 22px;margin-right: 24px; }
+
+.DistributionCustomers{ background: #fff;margin-bottom: 50px;}
+.DistributionCustomers h2{ font-size: 16px;line-height: 30px;position: relative;
+	padding-left: 6px;margin-left: 10px }
+.DistributionCustomers h2 em{width: 3px ;height: 16px;background: #e50014;position: absolute;top: 7px;left: 0; margin-right: 5px;}
+.DistributionCustomers ul li{ height: 68px;border-bottom: 1px solid #c8c7cc; }
+
+.DistributionCustomers figure{width: 33px ;height: 33px;margin-left: 22px;margin-right: 20px;margin-top: 16px;}
+.DistributionCustomers figure img{ width: 100%;height: 100%;border-radius: 50%; }
+.DistributionCustomers div{ line-height: 26px;margin-top: 8px; }
+
+.DistributionCustomers div span{display: inline-block;padding-left: 18px; color: #909090; background: url(../img/clock.png) no-repeat 2px center; background-size: 12px 12px;}
+.DistributionCustomers a img{ width: 13px;height:9px;margin-top: 27px;margin-right: 24px;-webkit-transform: rotate(-90deg);
+-ms-transform: rotate(-90deg);
+-o-transform: rotate(-90deg);
+transform: rotate(-90deg); }
+.lookMore p{text-align: center;}
+
+footer{width: 100%;height: 50px;position: fixed;bottom: 0;
+    z-index: 10000;}
+footer ul{width: 100%;height: 50px;}
+footer ul li img{ width: 17px; }
+footer ul{ width: 100%; border-top: 1px solid #d3d3d3}
+footer ul li{box-sizing:border-box;float: left;height: 50px;background: #fff;width: 25%;text-align: center;padding: 8px 0;}
+footer ul li:first-child{
+	border-right: 1px solid #d3d3d3
+}
+footer ul li p{color: #999;}
+footer ul li h3{line-height:34px;color: #fff;}
+footer ul li:last-child{background: #ff0000;width: 50%;}

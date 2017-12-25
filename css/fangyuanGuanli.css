@@ -1,0 +1,103 @@
+/*
+* @Author: suntoo_2016_001
+* @Date:   2016-09-14 14:04:40
+* @Last Modified by:   suntoo_2016_001
+* @Last Modified time: 2016-09-19 10:22:33
+*/
+/*
+* @Author: suntoo_2016_001
+* @Date:   2016-09-14 11:52:19
+* @Last Modified by:   suntoo_2016_001
+* @Last Modified time: 2016-09-14 12:12:55
+*/
+/*
+* @Author: suntoo_2016_001
+* @Date:   2016-09-14 11:10:53
+* @Last Modified by:   suntoo_2016_001
+* @Last Modified time: 2016-09-14 11:41:06
+*/
+
+body{background: #eee}
+header{
+    width: 100%;
+    position: fixed;
+    
+    height: 45px;
+    top: 0;
+    z-index: 100000;
+    
+}
+header h2{
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    background: #e60012;
+    font-size: 19px;
+}
+
+.section{padding:0 10px;}
+
+.liangDian{padding-top: 45px;margin-bottom: 3px;}
+
+.liangDian ul{overflow: hidden;}
+.liangDian ul li{width: 130%;padding-top: 15px;border-bottom: 1px solid #c8c7cc;box-sizing:border-box;}
+
+.liangDian ul li:last-child{border:none;padding-bottom: 5px;}
+.liangDian ul li .box{
+    overflow: hidden;
+    padding: 0 10px;
+    width: 77%;
+}
+.liangDian ul li .box figure{
+    width: 100px;height: 75px;
+    float: left;
+}
+.liangDian ul li .box figure img{
+    width: 100px;height: 75px;
+    
+}
+.liangDian .hanzi{margin-left: 110px;height: 75px;position: relative;}
+.liangDian .hanzi .last{
+position: absolute;bottom: -1px;left: 0;color:#b4b5b6;
+}
+
+.liangDian .hanzi strong{font-weight: 100;color: #e50014 ;line-height: 20px;}
+.liangDian .hanzi .greyC{color: #b4b5b6;}
+.liangDian .hanzi p{line-height: 20px;}
+.logoArea span:first-child{
+    padding-left: 13px;
+    background: url(../img/Gpeople.png) no-repeat left center;
+    background-size: 11px;
+}
+.liangDian .logoArea span:nth-child(2){
+    padding-left: 50px;
+    background: url(../img/Gzan.png) no-repeat 36px center;
+    background-size: 12px;
+}
+.xiamian{margin-top: 7px;color:#b4b5b6; }
+.xiamian p i img{width: 13px;height: 9px;-webkit-transform: rotate(-90deg);
+-ms-transform: rotate(-90deg);
+-o-transform: rotate(-90deg);
+transform: rotate(-90deg);}
+.liangDian .fangjian{font-size: 16px;width: 170px;overflow: hidden;
+text-overflow:ellipsis;
+white-space: nowrap;}
+.listBiaodan{ width: 100%;height: 40px;background: #fff;border-top: 1px solid #a7a7a7; border-bottom: 1px solid #a7a7a7;}
+.listBiaodan ul{height: 40px;width: 100%}
+.listBiaodan ul li{height: 40px;font-size: 15px; float: left;width: 20%;text-align: center;line-height: 40px;}
+.yixiang{width: 100%;margin-top: 10px;margin-bottom: 15px;}
+
+.yixiang .yonghu{width: 100%;
+    height: 50px;background: #fff;border-bottom: 1px dashed #a7a7a7}
+.yixiang .current{background:#eee;}
+.yixiang .yonghu ul{padding:8px 20px;}
+.yixiang h2{position: relative;padding-left: 19px;line-height: 40px; font-size: 15px;font-weight: 700;height: 40px;background:#fff;}
+.yixiang h2 em{width: 3px;height: 15px;background: #e50014;position: absolute;top:12px;left:10px;}
+.yixiang .yonghu ul li figure{float: left;}
+.yixiang .yonghu ul li figure img{width: 32px;height: 32px;border-radius: 50%;}
+.yixiang .yonghu ul li span{float: left;margin-left: 16px;line-height: 30px;}
+.yixiang .yonghu ul li strong{float: left;line-height: 30px;margin-left: 22px;font-weight: 100;}
+.yixiang .yonghu ul li p{float: right;line-height: 30px;}
+.yixiang .yonghu ul li p img{width: 16px;height: 14px;}
+
+footer{ font-size: 15px; width: 100%;height: 44px;background: #ff0000;text-align: center;line-height: 44px;color: #fff;position: fixed;bottom:0;z-index: 100000;}

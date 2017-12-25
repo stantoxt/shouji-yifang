@@ -1,0 +1,148 @@
+/*
+* @Author: suntoo_2016_001
+* @Date:   2016-09-18 10:28:52
+* @Last Modified by:   suntoo_2016_001
+* @Last Modified time: 2016-09-19 10:28:14
+*/
+body{background: #eee}
+header{
+    width: 100%;
+    position: fixed;
+    
+    height: 45px;
+    top: 0;
+    z-index: 100000;
+    
+}
+header h2{
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    background: #e60012;
+    font-size: 19px;
+}
+i{color: #acacac}
+/* banner */
+.section{padding:0 10px;}
+
+.shangchuanIMg{padding:45px 4px 4px 4px;}
+.shangchuanIMg ul li{width: 23.6%;float: left;position: relative;margin-right: 5px;margin-top: 5px;}
+.shangchuanIMg ul li:nth-child(4n+4){margin-right: 0;}
+.shangchuanIMg ul li figure{width: 100%;}
+.shangchuanIMg ul li figure img{width: 100%;display: block;}
+.shangchuanIMg ul li i{position: absolute;top:-2px;right:-2px; width: 21px;height: 21px;}
+.shangchuanIMg ul li i img{position: absolute;top:2px;right:2px; width: 100%;height: 100%}
+.shangchuanIMg ul li div{
+position: relative;
+text-align: center;
+
+padding: 2px;
+}
+.shangchuanIMg ul li div a{border-radius: 3px; width: 100%;height: 100%;display: inline-block;border: 1px solid #dfdfdf;}
+.shangchuanIMg ul li div img{width: 34px;height: 25px;position: absolute;top:50%;left: 50%;margin-left: -17px;margin-top: -20px;}
+.shangchuanIMg ul li div p{color: #acacac; position: absolute;bottom:16px;width: 100%;text-align: center;font-size: 10px;}
+.baG a{background: #999}
+.shangchuanIMg ul .baG p{color: #fff;}
+
+.list{ width: 100%;background: #fff;}
+.list li{ width: 100%;height: 50px;line-height: 50px;border-bottom: 1px solid #c8c7cc;padding: 0 10px; }
+.list li span{float: left;color: #909090}
+.list li a{float: left;color: #e1e1e1;}
+.list li i{float: right;font-style: normal;}
+.list li i.down{width: 13px;height: 9px;}
+.list li i.down img{width: 13px;height: 9px;-webkit-transform: rotate(-90deg);
+-ms-transform: rotate(-90deg);
+-o-transform: rotate(-90deg);
+transform: rotate(-90deg);}
+.list li textarea{padding:10px 5px; width: 100%;height: 75px;border:1px solid #c8c7cc;resize:none;border-radius: 4px;}
+.list li.miaoshu{height: 134px;border:none;}
+
+.list1{ width: 100%;background: #fff;margin-top: 5px;}
+.list1 ul li{ width: 100%;height: 50px;line-height: 50px;border-bottom: 1px solid #c8c7cc;padding: 0 10px; }
+.list1 ul li span{float: left;color: #909090}
+.list1 ul li a{float: left;color: #e1e1e1;}
+.list1 ul li i{float: right;font-style: normal;   }
+.list1 ul li ol{overflow: hidden;height: 140px;width: 78%;}
+.list1 ul li ol li{text-indent: 2px;border-bottom: none; height: 28px;line-height: 28px;padding: 10px 0 0; float: left;width:30%;position: relative;text-align: right;margin-right: 5px;}
+.list1 ul li ol li div{width: 13px;height: 13px;border: 1px solid #565656;position: absolute;right:55px;top:19px;}
+.tese p{width:70px;font-size: 11px; border: 1px solid #e60012;height: 20px;line-height: 20px;text-align: left;border-radius: 3px;position: relative;}
+.tese i{position: absolute;top:10px;right:2px;}
+.list1 ul li.last{height: 140px;}
+.list1 ul li ol li div i img{width: 9px;height: 9px;}
+.list li input{width: 100px;}
+.tese i{
+     margin-top: -9px;
+}
+.list1 ul li.last span{
+    width: 22%;
+}
+.list1 ul li ol li:nth-child(3n+1){
+float: left;
+}
+.list1 ul li ol li:nth-child(3n+2){
+float: left;
+}
+.list1 ul li ol li:nth-child(3n+3){
+float: right;
+}
+.tese:nth-child(3n+1){margin-left: 2px;}
+.tese i img{width: 13px;height: 13px;}
+
+.list1 ul li ol li input{ width: 200px;height: 30px;border: 1px solid #c8c7cc;border-radius: 4px;}
+.inputF{position: relative;}
+.list1 ul li ol li  figure{width: 13px;height: 13px;position: absolute;right: -151px;top:10px;}
+.list1 ul li ol li figure img{width: 13px;height: 13px;}
+
+.list2{ width: 100%;background: #fff;margin-top: 5px;}
+.list2 li{ width: 100%;height: 50px;line-height: 50px;border-bottom: 1px solid #c8c7cc;padding: 0 10px; }
+.list2 li span{float: left;color: #909090}
+.list2 li a{float: left;color: #e1e1e1;}
+.list2 li i{float: right;font-style: normal;}
+
+.list3{ width: 100%;background: #fff;margin-top: 5px;}
+.list3 li{ width: 100%;height: 50px;line-height: 50px;border-bottom: 1px solid #c8c7cc;padding: 0 10px; }
+.list3 li span{float: left;color: #909090}
+.list3 li a{float: left;color: #e1e1e1;}
+.list3 li i{float: right;font-style: normal;}
+.info_more{background: #fff;margin-top: 5px;height: 165px;}
+.info_more a {
+    display: block;
+    font-size: 13px;
+    border-bottom: 1px solid #c8c7cc;
+    padding: 10px 10px;
+    height: 50px;
+    line-height: 25px;
+}
+.info_more span:nth-child(1) {
+    display: block;
+    color: #909090;
+    float: left;
+}
+.info_more span{position: relative;}
+.info_more span i{display: inline-block;width: 13px;height: 13px;border: 1px solid #565656;position: absolute;top:6px;right:28px;}
+.info_more span i img{width: 9px;height: 9px;position: absolute;}
+.info_more span:nth-child(2) {
+    display: block;
+    float: left;
+    color: #e1e1e1;
+    font-size: 13px;
+}
+.w20 {
+    width: 15%;
+    margin-right: 3px;
+    border: none;
+}
+.mr03 {
+    margin-right: 3px;
+}
+.zhushi {
+    font-size: 11px;
+    color: #e60012;
+}
+
+.jiantou{margin-bottom: 49px; text-align: center;background: #fff;height: 40px;margin-top: 5px;line-height: 40px;}
+.jiantou img{
+    width: 13px; height: 9px; 
+
+}
+footer{width: 100%;height: 49px;background: #f10000;text-align: center;line-height: 49px;color: #fff;font-size: 16px;position: fixed;z-index: 10000;bottom: 0;z-index: 100000;}

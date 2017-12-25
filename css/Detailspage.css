@@ -1,0 +1,238 @@
+/*
+* @Author: suntoo_2016_001
+* @Date:   2016-09-13 15:28:21
+* @Last Modified by:   suntoo_2016_001
+* @Last Modified time: 2016-09-19 10:36:17
+*/
+body{background: #efeff4}
+header{
+    width: 100%;
+    position: fixed;
+    
+    height: 45px;
+    top: 0;
+    z-index: 100000;
+    
+}
+header h2{
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    background: #e60012;
+    font-size: 19px;
+}
+
+/* banner */
+.section{padding:0 10px;}
+.banner{
+	width: 100%;
+	padding-top: 45px
+}
+.banner figure{width: 100%;}
+.banner figure img{width: 100%;display: block;}
+
+.Details{background: #fff;padding-bottom:4px; }
+.Details h2{ font-size: 16px;line-height: 40px; }
+.Details ul li{margin-bottom: 7px;}
+.Details ul li:first-child{ overflow: hidden; }
+.Details ul li:first-child h6{
+	padding-left: 13px;
+	color:#909090;
+	background: url(../img/mobile.png) no-repeat left center;
+	background-size: 10px 13px;
+	 }
+.Details ul li span{
+	color: #909090;
+}
+.Details .special{
+	overflow: hidden;
+}
+.Details .special li{margin-right: 15px; float: left;width: 60px;height: 18px;text-align: center;border: 1px solid #f00;color: #e60012}
+.Details ul li strong{color:#e90000;font-weight: 100; }
+.youhui{ padding: 10px 0px;background: #fff;margin-top: 10px;margin-bottom: 10px;}
+.youhui h2{ font-size: 16px;line-height: 30px;position: relative;
+	padding-left: 6px;margin-left: 10px; }
+.youhui h2 em{width: 3px ;height: 16px;background: #e50014;position: absolute;top: 7px;left: 0; margin-right: 5px;}
+.touhuiPic figure{width: 100%;padding: 10px 10px;box-sizing:border-box;}
+.touhuiPic{position: relative;width: 100%;}
+.touhuiPic figure img{ width: 100% }
+.touhuiPic ul{position: absolute;top:34px;left:0px;}
+.touhuiPic ul li img{ width: 17px; }
+.touhuiPic ul{ width: 100%;border-top: 1px solid #d3d3d3 }
+.touhuiPic ul li{box-sizing:border-box;border-right: 1px solid #d3d3d3;float: left;height: 50px;background: #fff;width: 25%;text-align: center;padding: 8px 0;}
+.touhuiPic ul li:first-child{
+	border-right: 1px solid #d3d3d3
+}
+.touhuiPic ul li p{color: #999;}
+.touhuiPic ul li h3{line-height:34px;color: #fff;}
+.touhuiPic ul li:last-child{background: #ff0000;width: 50%;}
+
+.houseActive{ padding: 10px 0px;background: #fff;margin-top: 10px;margin-bottom: 10px;}
+.houseActive h2{ font-size: 16px;line-height: 30px;position: relative;
+	padding-left: 6px;margin-left: 10px; }
+.houseActive h2 em{width: 3px ;height: 16px;background: #e50014;position: absolute;top: 7px;left: 0; margin-right: 5px;}
+.duanLuo{ width: 100%;
+	padding: 0 10px;
+	box-sizing:border-box;
+	
+	
+ }
+ .duanLuo p{
+ 	overflow: hidden;
+	text-overflow:ellipsis;
+white-space: nowrap;
+line-height: 27px;
+ }
+ .houseActive h4,.houseActive h5
+ {
+ 	line-height: 27px;
+ 	color: #909090;
+ }
+
+ .houseActive h4{
+ 	padding-left: 28px;
+ 	background: url(../img/clock.png) no-repeat 10px center;
+ 	background-size: 13px 13px;
+ }
+.huxing{ padding: 10px 10px;background: #fff;margin-top: 10px;margin-bottom: 10px;}
+.huxing h2{ font-size: 16px;line-height: 30px;position: relative;
+	padding-left: 6px; }
+.huxing h2 em{width: 3px ;height: 16px;background: #e50014;position: absolute;top: 7px;left: 0; margin-right: 5px;}
+.huxing ul{overflow: hidden;}
+.huxing ul li{
+	float: left;
+	margin-right: 15px;
+}
+.huxing ul li img{ width: 100px;height:75px;display: block; }
+.huxing ul li span{width: 100px;display: inline-block;text-align: center;color: #909090;line-height: 35px;}
+.huxing ul li p{text-align: center}
+.huXingson ul li{ line-height: 30px;color: #909090; }
+.huXingson ul li.active{ color: #e60012 }
+.diTu{ padding: 10px 10px;background: #fff;margin-top: 10px;margin-bottom: 10px;}
+.diTu h2{ font-size: 16px;line-height: 30px;position: relative;
+	padding-left: 6px; }
+.diTu h2 em{width: 3px ;height: 16px;background: #e50014;position: absolute;top: 7px;left: 0; margin-right: 5px;}
+.diTu li{ overflow: hidden;}
+.diTu figure{width: 100%;margin: 5px 0}
+.diTu figure img{width: 100%;}
+.diTu ul li span{float: left;line-height: 25px;}
+.diTu ul li p{float: left;line-height: 25px;}
+.diTu ul li:first-child{position: relative;}
+.diTu a{width: 20px;height: 20px;position: absolute;top:4px;right:0;}
+.diTu a img{transform: rotate(-90deg);width: 13px;height: 9px;}
+
+
+.duanLuoArea{ padding: 10px 10px;background: #fff;margin-top: 10px;margin-bottom: 10px;}
+.duanLuoArea h2{ font-size: 16px;line-height: 30px;position: relative;
+	padding-left: 6px; }
+.duanLuoArea h2 em{width: 3px ;height: 16px;background: #e50014;position: absolute;top: 7px;left: 0; margin-right: 5px;}
+.duanLuoArea p{line-height: 25px;}
+.duanLuoArea .jiantou{ text-align: center}
+.duanLuoArea .jiantou img{
+	width: 13px; height: 9px;
+
+}
+
+.Details2{background: #fff;padding-bottom:4px;padding: 10px 10px; }
+.Details2 h2{ font-size: 16px;line-height: 30px;position: relative;
+	padding-left: 6px; margin-bottom: 5px;}
+.Details2 h2 em{width: 3px ;height: 16px;background: #e50014;position: absolute;top: 7px;left: 0; margin-right: 5px;}
+.Details2 ul li{margin-bottom: 13px;}
+.Details2 ul li:first-child{ overflow: hidden; }
+.Details2 ul li:first-child h6{
+	padding-left: 13px;
+	color:#909090;
+	background: url(../img/mobile.png) no-repeat left center;
+	background-size: 10px 13px;
+	 }
+.Details2 ul li span{
+	color: #909090;
+}
+.Details2 ul li strong{color:#e90000;font-weight: 100; }
+
+.Details2 .jiantou{ text-align: center}
+.Details2 .jiantou img{
+	width: 13px; height: 9px;
+
+}
+
+
+.liangDian{margin-bottom: 10px;background: #fff;padding-bottom:4px;padding-top: 10px;padding-bottom: 10px; margin-top: 10px;}
+.liangDian h2{ font-size: 16px;line-height: 30px;position: relative;
+	padding-left: 16px; margin-bottom: 5px;}
+.liangDian h2 em{width: 3px ;height: 16px;background: #e50014;position: absolute;top: 7px;left: 6px; margin-right: 5px;}
+.liangDian ul li{width: 100%;padding: 15px 0;border-bottom: 1px solid #c8c7cc}
+.liangDian ul li:first-child{padding-top: 4px;}
+.liangDian ul li:last-child{border:none;padding-bottom: 5px;}
+.liangDian ul li .box{
+	overflow: hidden;
+	padding: 0 10px;
+}
+.liangDian ul li .box figure{
+	width: 100px;height: 75px;
+	float: left;
+}
+.liangDian ul li .box figure img{
+	width: 100px;height: 75px;
+	
+}
+.liangDian .hanzi{margin-left: 110px;line-height: 25px;height: 75px;position: relative;}
+.liangDian .hanzi p{
+position: absolute;bottom: 0;right: 0;color: #909090;
+}
+.liangDian .hanzi span{font-size: 15px;}
+
+
+.priceTrend{ padding: 10px 10px;background: #fff;margin-top: 10px;margin-bottom: 10px;}
+.priceTrend h2{ font-size: 16px;line-height: 30px;position: relative;
+	padding-left: 6px; }
+.priceTrend h2 em{width: 3px ;height: 16px;background: #e50014;position: absolute;top: 7px;left: 0; margin-right: 5px;}
+.priceTrend .trend{overflow: hidden;}
+.priceTrend .trend ul{overflow: hidden;}
+.priceTrend .trend ul li{ 
+float: left;margin-left: 15px; line-height: 30px;}
+.active{color: #e60012;}
+.TrendImg figure{width: 100%;margin-top: 10px;}
+.TrendImg figure img{width: 100%;}
+
+
+.houseIndex{ padding: 10px 10px;background: #fff;margin-top: 10px;padding-bottom: 0}
+.houseIndex h2{ font-size: 16px;line-height: 30px;position: relative;
+	padding-left: 6px; margin-bottom: 5px;}
+.houseIndex h2 em{width: 3px ;height: 16px;background: #e50014;position: absolute;top: 7px;left: 0; margin-right: 5px;}
+.houseIndex .pingFen{
+	overflow: hidden;
+	margin-bottom: 13px;
+}
+.houseIndex .pingFen p{
+	width: 137px;
+	padding-left: 90px;
+	background: url(../img/star.png) no-repeat 10px center;
+	background-size: 72px 12.5px;
+}
+
+.availableHouse ul{
+	width: 100%;
+	overflow: hidden;
+}
+.availableHouse ul li{ 
+	
+	width: 20%;
+	float: left;
+	
+	margin-bottom: 13px;
+	
+	 
+}
+.availableHouse ul li span,.houseIndex .pingFen h3{color: #909090;}
+.availableHouse ul li:nth-child(4n+2){
+	margin-right: 6%;
+	margin-left: 6%;
+}
+.availableHouse ul li:nth-child(4n+3){
+	margin-right:3%;
+}
+.availableHouse ul li:nth-child(4n+4){
+	text-align: right;
+	width: 25%;
+}

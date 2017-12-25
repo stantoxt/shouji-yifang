@@ -1,0 +1,63 @@
+/*
+* @Author: suntoo_2016_001
+* @Date:   2016-09-14 11:52:19
+* @Last Modified by:   suntoo_2016_001
+* @Last Modified time: 2016-09-19 10:27:12
+*/
+/*
+* @Author: suntoo_2016_001
+* @Date:   2016-09-14 11:10:53
+* @Last Modified by:   suntoo_2016_001
+* @Last Modified time: 2016-09-14 11:41:06
+*/
+
+body{background: #efeff4}
+header{
+    width: 100%;
+    position: fixed;
+    
+    height: 45px;
+    top: 0;
+    z-index: 100000;
+    
+}
+header h2{
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    background: #e60012;
+    font-size: 19px;
+}
+
+/* banner */
+.section{padding:0 10px;}
+
+
+.liangDian{background: #fff;padding-bottom:4px;padding-bottom: 10px;padding-top: 45px}
+
+
+.liangDian ul li{width: 100%;padding: 15px 0;border-bottom: 1px solid #c8c7cc}
+
+.liangDian ul li:last-child{border:none;padding-bottom: 5px;}
+.liangDian ul li .box{
+	overflow: hidden;
+	padding: 0 10px;
+}
+.liangDian ul li .box figure{
+	width: 100px;height: 75px;
+	float: left;
+}
+.liangDian ul li .box figure img{
+	width: 100px;height: 75px;
+	
+}
+.liangDian .hanzi{margin-left: 110px;height: 75px;position: relative;}
+.liangDian .hanzi .last{
+position: absolute;bottom: -1px;left: 0;color: #909090;color: #e60012
+}
+
+.liangDian .hanzi strong{font-weight: 100;color: #e60012 ;line-height: 20px;}
+.liangDian .hanzi p{color: #909090;line-height: 20px;}
+.liangDian h2{width: 100%;height: 43px;border-bottom: 1px solid #c8c7cc;padding-left: 10px;}
+.liangDian h2{ text-align: left;line-height: 43px;color: #e50014 ;}
+.liangDian .fangjian{font-size: 16px;}

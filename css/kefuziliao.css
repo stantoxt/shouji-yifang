@@ -1,0 +1,166 @@
+/*
+* @Author: suntoo_2016_001
+* @Date:   2016-09-18 10:28:52
+* @Last Modified by:   suntoo_2016_001
+* @Last Modified time: 2016-09-28 15:05:15
+*/
+body{background: #fff;}
+header{
+    width: 100%;
+    position: fixed;
+    
+    height: 45px;
+    top: 0;
+    z-index: 100000;
+    
+}
+header h2{
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    background: #e60012;
+    font-size: 19px;
+}
+.xingming{
+    margin-top: 45px;
+    width: 94%;
+    margin-left: 3%;
+    height: 50px;
+    font-size: 14px;
+    line-height: 50px;
+    border-bottom: 1px solid #b4b5b6;
+}
+.xingming span{float: left;color: #b4b5b6;}
+.xingming input{float: left;margin-top: 16px;}
+.xingming p{float: right;}
+
+.dianhua{
+    width: 94%;
+    margin-left: 3%;
+    height: 50px;
+    font-size: 14px;
+    line-height: 50px;
+    border-bottom: 1px solid #b4b5b6;
+}
+.dianhua span{float: left;color: #b4b5b6;}
+.dianhua input{float: left;margin-top: 16px;}
+
+.age{
+    width: 94%;
+    margin-left: 3%;
+    height: 50px;
+    font-size: 14px;
+    line-height: 50px;
+    border-bottom: 1px solid #b4b5b6;
+}
+.age span{float: left;color: #b4b5b6;}
+.age .input{float: left;margin-top: 16px;}
+.age .man{ margin-right: 26px; float: left;position: relative;padding-left: 15px;}
+.age .man input{position: absolute;top:19px;left: 0;}
+.age .woman input{position: absolute;top:19px;left: 0;}
+
+.age .woman{ float: right;position: relative;padding-left: 15px; }
+
+
+.xingge{
+    padding-top: 15px;
+    width: 94%;
+    margin-left: 3%;
+    overflow: hidden;
+    font-size: 14px;
+    
+    border-bottom: 1px solid #b4b5b6;
+}
+.xingge span{float: left;color: #b4b5b6;width: 22%}
+.xingge ul{float: right;overflow: hidden;width:78%}
+.xingge ul li{float: left;width: 30%;overflow: hidden;margin-bottom: 15px;position: relative;padding-left: 20px;}
+
+.xingge ul li input{position: absolute;top:2px;left:0;}
+.tujing{
+    padding-top: 15px;
+    width: 94%;
+    margin-left: 3%;
+    overflow: hidden;
+    font-size: 14px;
+    
+    border-bottom: 1px solid #b4b5b6;
+}
+.tujing span{float: left;color: #b4b5b6;width: 22%}
+.tujing ul{float: right;overflow: hidden;width: 78%}
+.tujing ul li{float: left;width: 30%;overflow: hidden;margin-bottom: 15px;position: relative;padding-left: 20px;}
+
+.tujing ul li input{position: absolute;top:2px;left:0;}
+
+.mudi{
+    padding-top: 15px;
+    width: 94%;
+    margin-left: 3%;
+    overflow: hidden;
+    font-size: 14px;
+    
+    border-bottom: 1px solid #b4b5b6;
+}
+.mudi span{float: left;color: #b4b5b6;width: 22%}
+.mudi ul{float: right;overflow: hidden;width: 78%}
+.mudi ul li{float: left;width: 30%;overflow: hidden;margin-bottom: 15px;position: relative;padding-left: 20px;}
+
+.mudi ul li input{position: absolute;top:2px;left:0;}
+
+
+.email{
+    width: 94%;
+    margin-left: 3%;
+    height: 50px;
+    font-size: 14px;
+    line-height: 50px;
+    border-bottom: 1px solid #b4b5b6;
+}
+.email span{float: left;color: #b4b5b6;}
+.email input{float: left;margin-top: 16px;}
+
+.qq{
+    width: 94%;
+    margin-left: 3%;
+    height: 50px;
+    font-size: 14px;
+    line-height: 50px;
+    border-bottom: 1px solid #b4b5b6;
+}
+.qq span{float: left;color: #b4b5b6;}
+.qq input{float: left;margin-top: 16px;}
+
+.inportant{
+    width: 94%;
+    margin-left: 3%;
+    height: 50px;
+    font-size: 14px;
+    line-height: 50px;
+    
+}
+.inportant span{
+    width: 22%;
+    float: left;
+    color: #b4b5b6;
+}
+.inportant ul{
+    width: 78%;
+    height: 50px;
+    float: left;
+
+}
+.inportant ul li{float: left;width: 22%;margin-right: 10px;position: relative;padding-left: 15px;}
+.inportant ul li input{
+    position: absolute;
+    top: 20px;
+    left: 0;}
+footer{
+    width: 94%;
+    margin-left: 3%;
+    height: 44px;
+    background: #ff0000;
+    border-radius: 5px;
+    color: #fff;
+    line-height: 44px;
+    text-align: center;
+    margin-bottom: 20px;
+}

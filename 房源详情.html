@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+        <link rel="stylesheet" type="text/css" href="css/base.css">
+        <link rel="stylesheet" type="text/css" href="css/Housingdetails.css">
+    </head>
+    <body>
+    <header>
+    	<h2>房源详情</h2>
+    </header>
+    <div class="banner">
+    	<figure><img src="img/pic2.png"  alt=""></figure>
+    </div>
+    <div class="Details">
+    	<h2 class="section">21#楼-1-201</h2>
+    	
+    	<ol>
+    		<li>
+    			<p>总 价</p>
+    			<h5>98.85万</h5>
+    		</li>
+    		<li>
+    			<p>面 积</p>
+    			<h5>219.22</h5>
+    		</li>
+    		<li>
+    			<p>户 型</p>
+    			<h5>3/2/1</h5>
+    		</li>
+    		<li>
+    			<p>楼 层</p>
+    			<h5>6/7</h5>
+    		</li>
+    	</ol>
+    	<ul class="section hideShow">
+    		<li>
+    			<p class="fl"><span>单　　价：</span><strong>3000</strong>元/m²</p>
+                <h6 class="fr">房贷计算</h6>
+    		</li>
+    		<li>
+    			<p><span>类　　型：</span>高层住宅</p>
+    		</li>
+    		<li>
+    			<p><span>层　　高：</span>2.9m</p>
+    		</li>
+    		<li>
+    			<p><span>装　　修：</span>毛坯</p>
+    		</li>
+    		<li>
+    			<p><span>交　　房：</span>2017/8/30</p>
+    		</li>
+
+    		<li>
+    			<p><span>开盘时间：</span>2016-5-1</p>
+    		</li>
+    		<li>
+    			<p><span>建筑朝向：</span>南</p>
+    		</li>
+    		<li>
+    			<p><span>建筑形式：</span>板楼</p>
+    		</li>
+    		<li>
+    			<p><span>建筑结构：</span>框架剪力墙</p>
+    		</li>
+    		<li>
+    			<p><span>建筑形式：</span>复式</p>
+    		</li>
+    		
+    	</ul>
+    	<div class="jiantou">
+    		<figure><img src="img/down.png"  alt=""></figure>
+    	</div>
+    </div>
+    <div class="youhui">
+        <h2 class="section"><em></em>楼盘优惠</h2>
+        <div class="touhuiPic">
+            <figure>
+                <img src="img/youhui.png"  alt="">
+            </figure>
+            <ul>
+                <li>
+                    <img src="img/share.png"  alt="">
+                    <p>分享</p>
+                </li>
+                <li>
+                    <img src="img/phone.png"  alt="">
+                    <p>直拨客服</p>
+                </li>
+                <li><h3>添加意向客户</h3></li>
+
+            </ul>
+        </div>
+        
+    </div>
+    <div class="fangYintroduce">
+    	<h2><em></em>户型介绍</h2>
+    	<ul>
+    		<li><p>教育特色</p></li>
+    		<li><p>现代简约</p></li>
+    		<li><p>交通便捷</p></li>
+    	</ul>
+    	<div class="wenzi">
+    		<p>该户型为经典3室户，动静分离高得房率，适宜居住.该户型为经典3室户</p>
+    	</div>
+    </div>
+    
+    <div class="tax">
+    	<div class="father section">
+    		<h2 class="fl"><em></em>相关税费</h2>
+    		<p class="fr">(系统自动生成，仅作参考)</p>
+    	</div>
+    	<ul class="taxDetails">
+    		<li>
+    			<h3 class="fl">契　　税</h3>
+    			<span class="fl mL40">默认1%</span>
+    			<p class="fr">10元</p>
+    		</li>
+    		<li>
+    			<h3 class="fl">印 花 税</h3>
+    			<span class="fl mL41">5元／件</span>
+    			<p class="fr">5元</p>
+    		</li>
+    		<li>
+    			<h3 class="fl">住房登记费 </h3>
+    			<span class="fl">80元／件</span>
+    			<p class="fr">80元</p>
+    		</li>
+    		<li>
+    			<h3 class="fl">买卖手续费</h3>
+    			<span class="fl">500元／件</span>
+    			<p class="fr">500元</p>
+    		</li>
+    		<li>
+    			<h3 class="fl">总　　计</h3>
+    			
+    			<p class="fr">9973元</p>
+    		</li>
+
+    	</ul>
+    </div>
+    </body>
+    <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript">
+    	$(".hideShow li:gt(3)").hide()
+    	var flag=0;
+    	
+    	$(".jiantou figure img").click(function(event) {
+
+    		if(flag==0)
+    		{
+    			$(".hideShow li:gt(3)").show();
+    		$(".jiantou figure img").css('transform','rotate(180deg)')
+    		flag=1
+    		}
+    		else{
+    			$(".hideShow li:gt(3)").hide();
+    		$(".jiantou figure img").css('transform','rotate(0)')
+    		flag=0
+    		}
+    			
+    	});
+    		
+    </script>
+</html>

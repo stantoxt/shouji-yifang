@@ -1,0 +1,135 @@
+/*
+* @Author: suntoo_2016_001
+* @Date:   2016-09-13 12:07:08
+* @Last Modified by:   suntoo_2016_001
+* @Last Modified time: 2016-09-19 10:31:33
+*/
+body{background: #efeff4}
+header{
+    width: 100%;
+    position: fixed;
+    
+    height: 45px;
+    top: 0;
+    z-index: 100000;
+    
+}
+header h2{
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    background: #e60012;
+    font-size: 19px;
+}
+
+/* banner */
+.section{padding:0 10px;}
+.banner{
+	width: 100%;padding-top: 45px;
+}
+.banner figure{width: 100%;}
+.banner figure img{width: 100%;display: block;}
+
+.Details{background: #fff;padding-bottom:15px; }
+.Details h2{ font-size: 16px;line-height: 43px; }
+.Details ol{ 
+	width: 100%;height: 52px;
+	border-top:1px solid #d4d4d4; border-bottom:1px solid #d4d4d4;
+	
+}
+.Details ol li{ 
+	float: left;
+	width: 25%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	box-sizing:border-box;
+	border-right: 1px solid #d4d4d4;
+	text-align: center;
+}
+.Details ol li p{
+	line-height: 23px;
+}
+.Details ol li:last-child{
+	border-right: none;
+}
+.Details ol li h5{color:#e90000;}
+.Details ul li{margin-top:7px;margin-bottom: 7px;}
+.Details ul li:first-child{ overflow: hidden; }
+.Details ul li:first-child h6{
+	padding-left: 13px;
+	color:#909090;
+	background: url(../img/mobile.png) no-repeat left center;
+	background-size: 10px 13px;
+	 }
+.Details ul li span{
+	color: #909090;
+}
+.Details ul li strong{color:#e90000;font-weight: 100; }
+.Details .jiantou{ text-align: center}
+.Details .jiantou img{
+	width: 13px; height: 9px;
+
+}
+
+.fangYintroduce{
+	margin-top: 10px;
+	padding: 10px 10px;
+	background: #fff;
+	margin-bottom: 10px;
+}
+.fangYintroduce h2{
+	font-size: 16px;
+	margin-bottom: 15px;
+	position: relative;
+	padding-left: 6px;
+}
+.fangYintroduce h2 em{width: 3px ;height: 16px;background: #e50014;position: absolute;top: 3px;left: 0; margin-right: 5px;}
+.fangYintroduce ul{overflow: hidden;}
+.fangYintroduce li
+{	width: 60px;height: 18px;
+	border: 1px solid #ff0000;
+	color: #e60012;
+	line-height: 18px;text-align: center;
+	margin-right: 13px;
+	float: left;
+}
+.fangYintroduce .wenzi p{line-height: 27px;margin-top: 10px;}
+
+.youhui{ padding: 10px 0px;background: #fff;margin-top: 10px;margin-bottom: 10px;}
+.youhui h2{ font-size: 16px;line-height: 30px;position: relative;
+	padding-left: 6px;margin-left: 10px; }
+.youhui h2 em{width: 3px ;height: 16px;background: #e50014;position: absolute;top: 7px;left: 0; margin-right: 5px;}
+.touhuiPic figure{width: 100%;padding: 10px 10px;box-sizing:border-box;}
+.touhuiPic{position: relative;width: 100%;}
+.touhuiPic figure img{ width: 100% }
+.touhuiPic ul{position: absolute;top:34px;left:0px;}
+.touhuiPic ul li img{ width: 17px; }
+.touhuiPic ul{ width: 100%;border-top: 1px solid #d3d3d3 }
+.touhuiPic ul li{box-sizing:border-box;border-right: 1px solid #d3d3d3;float: left;height: 50px;background: #fff;width: 25%;text-align: center;padding: 8px 0;}
+.touhuiPic ul li:first-child{
+	border-right: 1px solid #d3d3d3
+}
+.touhuiPic ul li p{color: #999;}
+.touhuiPic ul li h3{line-height:34px;color: #fff;}
+.touhuiPic ul li:last-child{background: #ff0000;width: 50%;}
+
+
+.tax{background: #fff;padding-top:10px;}
+.tax .father{overflow: hidden;}
+.tax h2{ font-size: 16px;line-height: 30px;position: relative;
+	padding-left: 6px; }
+.tax h2 em{width: 3px ;height: 16px;background: #e50014;position: absolute;top: 7px;left: 0; margin-right: 5px;}
+.tax .father p{ line-height: 30px; }
+.taxDetails{ width: 100%; }
+.taxDetails li{
+	width: 100%; 
+ 	padding:0 10px;
+ 	border-bottom: 1px solid #c8c7cc;
+ 	overflow: hidden;
+ 	box-sizing: border-box;
+ 	line-height: 45px
+ }
+  .taxDetails li:last-child{border:none;}
+ .taxDetails li span{margin-left: 19%;width: 100px;text-align: center}
+ .taxDetails li .mL40{margin-left: 22%;}
+ .taxDetails li .mL41{margin-left: 25%;}

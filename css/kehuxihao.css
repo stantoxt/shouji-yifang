@@ -1,0 +1,151 @@
+/*
+* @Author: suntoo_2016_001
+* @Date:   2016-09-18 10:28:52
+* @Last Modified by:   suntoo_2016_001
+* @Last Modified time: 2016-09-28 15:18:22
+*/
+body{background: #fff;}
+header{
+    width: 100%;
+    position: fixed;
+    
+    height: 45px;
+    top: 0;
+    z-index: 100000;
+    
+}
+header h2{
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    background: #e60012;
+    font-size: 19px;
+}
+
+
+.huxing{
+    margin-top: 45px;
+    padding-top: 15px;
+    width: 94%;
+    margin-left: 3%;
+    overflow: hidden;
+    font-size: 14px;
+    
+    border-bottom: 1px solid #b4b5b6;
+}
+.huxing span{float: left;color: #b4b5b6;width: 22%}
+.huxing ul{float: right;overflow: hidden;width:78%}
+.huxing ul li{float: left;width: 30%;overflow: hidden;margin-bottom: 15px;position: relative;padding-left: 20px;}
+
+.huxing ul li input{position: absolute;top:2px;left:0;}
+
+
+.mianji{
+    padding-top: 15px;
+    width: 94%;
+    margin-left: 3%;
+    overflow: hidden;
+    font-size: 14px;
+    
+    border-bottom: 1px solid #b4b5b6;
+}
+.mianji span{float: left;color: #b4b5b6;width: 22%}
+.mianji ul{float: right;overflow: hidden;width: 78%}
+.mianji ul li{float: left;width: 30%;overflow: hidden;margin-bottom: 15px;position: relative;padding-left: 16px;}
+
+.mianji ul li input{position: absolute;top:2px;left:0;}
+
+.price{
+    padding-top: 15px;
+    width: 94%;
+    margin-left: 3%;
+    overflow: hidden;
+    font-size: 14px;
+    
+    border-bottom: 1px solid #b4b5b6;
+}
+.price span{float: left;color: #b4b5b6;width: 22%}
+.price ul{float: right;overflow: hidden;width: 78%}
+.price ul li{float: left;width: 30%;overflow: hidden;margin-bottom: 15px;position: relative;padding-left: 16px;}
+
+.price ul li input{position: absolute;top:2px;left:0;}
+
+
+.louceng{
+    padding-top: 15px;
+    width: 94%;
+    margin-left: 3%;
+    overflow: hidden;
+    font-size: 14px;
+    
+    border-bottom: 1px solid #b4b5b6;
+}
+.louceng span{float: left;color: #b4b5b6;width: 22%}
+.louceng ul{float: right;overflow: hidden;width: 78%}
+.louceng ul li{float: left;width: 25%;overflow: hidden;margin-bottom: 15px;position: relative;padding-left: 20px;}
+
+.louceng ul li input{position: absolute;top:2px;left:0;}
+
+.leixing{
+    padding-top: 15px;
+    width: 94%;
+    margin-left: 3%;
+    overflow: hidden;
+    font-size: 14px;
+    
+    border-bottom: 1px solid #b4b5b6;
+}
+.leixing span{float: left;color: #b4b5b6;width: 22%}
+.leixing ul{float: right;overflow: hidden;width: 78%}
+.leixing ul li{float: left;width: 30%;overflow: hidden;margin-bottom: 15px;position: relative;padding-left: 16px;}
+
+.leixing ul li input{position: absolute;top:2px;left:0;}
+
+
+.bankuan{
+   padding-top: 15px;
+    width: 94%;
+    margin-left: 3%;
+    overflow: hidden;
+    font-size: 14px;
+    position: relative;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #b4b5b6; 
+}
+
+.bankuan span{float: left;color: #b4b5b6;width: 22%}
+.bankuan ul{float: right;overflow: hidden;width: 78%}
+.bankuan ul li{
+    position: relative;
+    margin-bottom: 15px;
+}
+.bankuan ul li:last-child{
+    margin-bottom: 0;
+}
+.bankuan ul li i{
+    position: absolute;
+    top: 2px;
+    left: 112px;
+
+}
+.bankuan ul li i img{
+    width: 13px;height: 13px;
+}
+
+.bankuan figure{
+    position: absolute; top:15px; right: 0}
+.bankuan figure img{ 
+    width: 13px;height: 13px;}
+footer{
+    width: 94%;
+    
+    height: 44px;
+    background: #ff0000;
+    border-radius: 5px;
+    color: #fff;
+    line-height: 44px;
+    text-align: center;
+    
+    margin: 20px 0 20px 3%;
+    
+}

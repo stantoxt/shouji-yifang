@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+        <link rel="stylesheet" type="text/css" href="css/base.css">
+        <link rel="stylesheet" type="text/css" href="css/CommissionDetails.css">
+    </head>
+    <body>
+    <header>
+    	<h2>广天 · 九龙玉府</h2>
+    </header>
+    <div class="banner">
+    	<figure><img src="img/pic1.png"  alt=""></figure>
+    </div>
+ 
+    <div class="commission">
+    	<h2><em></em>佣金细则</h2>
+    	<ul>
+    		<li>
+    			<span>佣　　金：</span>
+    			<p>1、按成交总额的2000元/套计提佣金。成交已客户签署商品房买卖合同并支付首付款为准<br/>
+2、一次性付款客户在签订正式商品房买卖合同并将全额房款付清后即列入当月佣金计算，次月20号之前结算全额佣金。</p>
+    		</li>
+    		
+    		<li>
+    			<span>结　　算：</span>
+    			<p>现金2000元 / 10天</p>
+    		</li>
+    		<li>
+    			<span>认　　定：</span>
+    			<p>开发商分佣、易房网分佣 </p>
+    		</li>
+    		<li>
+    			<span>其　　他：</span>
+    			<p>经纪人成交真是客户奖励1000积分和0.1 权限</p>
+    		</li>
+    		
+    	</ul>
+    </div>
+
+    <div class="CustomerSupport">
+        <h2><em></em>客户支持</h2>
+        <ul>
+            <li>
+                <span>目标客户：</span>
+                <p>1、现金资产500万以上的企业主;<br/>
+2、家庭月收入10万以上，月供5万以上，年龄40~50岁之间，企业高管，商人；<br/>
+3、发布网络信息，包括竞品楼盘；<br/>
+4、派单(拍卖会、4S店、高尔夫、接到等所有潜在客户聚集处)</p>
+            </li>
+            
+            <li>
+                <span>拓客技巧：</span>
+                <p>1、800万以上售房业主电话推荐；<br/>
+2、短信覆盖所有客户；<br/>
+3、发布网络信息，包括竞品楼盘；<br/>
+4、派单(拍卖会、4S店、高尔夫、接到等所有潜在客户聚集处)</p>
+            </li>
+           
+            
+        </ul>
+    </div>
+
+    <div class="BuildingSupport">
+        <h2><em></em>楼盘支持</h2>
+        <ul>
+            <li class="oh">
+                <figure class="fl"><img src="img/headerPic.png" ></figure>
+                <div class="fl">
+                    <p><span>刘德顺</span>　驻 场</p>
+                    <span>13813813813</span>
+                </div>
+                <a class="fr" href="javascript:;"><img src="img/phone2.png"  alt=""></a>
+            </li>
+             <li class="oh">
+                <figure class="fl"><img src="img/headerPic.png" ></figure>
+                <div class="fl">
+                    <p><span>刘德顺</span>　编 辑</p>
+                    <span>13813813813</span>
+                </div>
+                <a class="fr" href="javascript:;"><img src="img/phone2.png"  alt=""></a>
+            </li>
+        </ul>
+    </div>
+
+     <div class="DistributionCustomers">
+        <h2><em></em>分销客户</h2>
+        <ul>
+            <li class="oh">
+                <figure class="fl"><img src="img/headerPic.png" ></figure>
+                <div class="fl">
+                    <p>18176728909　王先生</p>
+                    <span>07-15　　15:00</span>
+                </div>
+                <a class="fr" href="javascript:;"><img src="img/down.png" alt=""></a>
+            </li>
+             <li class="oh">
+                <figure class="fl"><img src="img/headerPic.png" ></figure>
+                 <div class="fl">
+                    <p>18176728909　王先生</p>
+                    <span>07-15　　15:00</span>
+                </div>
+                <a class="fr" href="javascript:;"><img src="img/down.png" alt=""></a>
+            </li>
+            <li class="oh">
+                <figure class="fl"><img src="img/headerPic.png" ></figure>
+                <div class="fl">
+                    <p>18176728909　王先生</p>
+                    <span>07-15　　15:00</span>
+                </div>
+                <a class="fr" href="javascript:;"><img src="img/down.png" alt=""></a>
+            </li>
+             <li class="oh">
+                <figure class="fl"><img src="img/headerPic.png" ></figure>
+                 <div class="fl">
+                    <p>18176728909　王先生</p>
+                    <span>07-15　　15:00</span>
+                </div>
+                <a class="fr" href="javascript:;"><img src="img/down.png" alt=""></a>
+            </li>
+        </ul>
+        <div class="lookMore"><p>查看更多客户</p></div>
+    </div>
+
+     <footer>
+        <ul>
+                <li>
+                    <img src="img/share.png"  alt="">
+                    <p>分享</p>
+                </li>
+                <li>
+                    <img src="img/phone.png"  alt="">
+                    <p>直拨客服</p>
+                </li>
+                <li><h3>添加意向客户</h3></li>
+
+            </ul>
+    </footer>
+    
+    </body>
+    <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript">
+        $(".DistributionCustomers li:gt(1)").hide()
+        var flag=0;
+        
+        $(".lookMore p").click(function(event) {
+
+            if(flag==0)
+            {
+               $(".DistributionCustomers li:gt(1)").show();
+            $(".lookMore p").html('没有更多客户')
+            flag=1
+            }
+            else{
+                $(".DistributionCustomers li:gt(1)").hide();
+            $(".lookMore p").html('查看更多客户')
+            flag=0
+            }
+                
+        });
+            
+    </script>
+</html>

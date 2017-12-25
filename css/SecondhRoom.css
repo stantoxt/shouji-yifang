@@ -1,0 +1,177 @@
+/*
+* @Author: suntoo_2016_001
+* @Date:   2016-09-14 14:04:40
+* @Last Modified by:   suntoo_2016_001
+* @Last Modified time: 2016-09-26 17:33:47
+*/
+/*
+* @Author: suntoo_2016_001
+* @Date:   2016-09-14 11:52:19
+* @Last Modified by:   suntoo_2016_001
+* @Last Modified time: 2016-09-14 12:12:55
+*/
+/*
+* @Author: suntoo_2016_001
+* @Date:   2016-09-14 11:10:53
+* @Last Modified by:   suntoo_2016_001
+* @Last Modified time: 2016-09-14 11:41:06
+*/
+
+body{background: #f3f3f3}
+header{
+	width: 100%;
+	position: fixed;
+	
+	height: 95px;
+	top: 0;
+    z-index: 100000;
+	
+}
+header h2{
+	text-align: center;
+	line-height: 45px;
+	color: #fff;
+	background: #e60012;
+	font-size: 19px;
+}
+header .mulu{height: 40px;width: 100%;background:#fff;border-bottom: 1px solid #c8c7cc;}
+header .mulu li{ float: left;position: relative; line-height: 40px;width: 25%;box-sizing:border-box;text-indent: 20px; }
+header .mulu li.active{color: #e60012}
+header .mulu li em{position: absolute;right: 8px;top:0;}
+header .mulu li em img{width: 13px ;height: 9px;}
+
+.hideitem {
+    width: 100%;
+    top: 85px;
+    position: absolute;
+    z-index: 1000;
+}
+.leftlist {
+    width: 50%;
+    background: #fff;
+    height: 215px;
+    overflow: hidden;
+    float: left;
+    font-size: 18px;
+}
+.leftlist li {
+    height: 40px;
+    padding-left: 20px;
+    line-height: 40px;
+}
+
+.rightlist {
+    width: 50%;
+    float: right;
+    height: 215px;
+    background: #f4f4f4;
+    font-size: 16px;
+    overflow: hidden;
+}
+.rightlist li {
+    padding-left: 15px;
+    height: 40px;
+    line-height: 40px;
+}
+.full {
+    width: 100%;
+    background: #eee;
+    height: auto;
+    font-size: 18px;
+}
+.full li {
+    border-bottom: 1px solid #ccc;
+    height: 20%;
+    padding: 6px 0px 6px 20px;
+}
+.sel_xuan {
+    background: #fff;
+}
+/* banner */
+.section{padding:0 10px;}
+.seach{width: 94%;margin-left: 3%;padding-top: 92px;padding-bottom: 7px;position: relative;}
+.seach input{ width: 100%;height: 30px;background: #fff;border-radius: 3px; }
+.seach em{
+		position: absolute;
+		bottom: 13px;
+    	right: 7px;
+}
+.seach em img{width: 13px;height: 13px;} 
+.liangDian{background: #fff;padding-bottom:4px;padding-bottom: 44px;}
+
+.liangDian ul{overflow: hidden;}
+.liangDian ul li{width: 130%;padding-top: 15px;border-bottom: 1px solid #c8c7cc;box-sizing:border-box;}
+
+.liangDian ul li:last-child{border:none;padding-bottom: 5px;}
+.liangDian ul li .box{
+	overflow: hidden;
+	padding: 0 10px;
+	width: 77%;
+}
+.liangDian ul li .box figure{
+	width: 100px;height: 75px;
+	float: left;
+}
+.liangDian ul li .box figure img{
+	width: 100px;height: 75px;
+	
+}
+.liangDian .hanzi{margin-left: 110px;height: 75px;position: relative;}
+.liangDian .hanzi .last{
+    width: 100%;
+position: absolute;bottom: -1px;left: 0;color: #909090;color: #e60012
+}
+.liangDian .hanzi .last p{margin-left: 10px;width: 16px;height: 15px;font-size: 10px;line-height: 13px; color: #e60012 ;border: 1px solid #e60012;}
+.liangDian .hanzi strong{font-weight: 100;color: #e60012 ;line-height: 20px;}
+.liangDian .hanzi .greyC{color: #909090;}
+.liangDian .hanzi p{line-height: 20px;}
+.logoArea span:first-child{
+	padding-left: 13px;
+	background: url(../img/people.png) no-repeat left center;
+	background-size: 13px;
+}
+.liangDian .logoArea span:nth-child(2){
+	padding-left: 40px;
+	background: url(../img/zan.png) no-repeat 25px center;
+	background-size: 14px;
+}
+.liangDian .fangjian{font-size: 16px;width: 120px;overflow: hidden;
+text-overflow:ellipsis;
+white-space: nowrap;}
+.box2{    width: 23%;margin-top: -15px;}
+.box2 div{width: 50%;height: 105px;color: #fff;font-size: 16px;line-height: 105px;text-align: center;}
+.box2 div:first-child{background: #b4b5b6}
+.box2 div:last-child{background: #ff0000;}
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 10000;
+    background: #f7f7f7;
+  
+}
+footer ul {
+    padding: 4px 0px 6px;
+    background: #fff;
+    height: 38px;
+    border-top: 1px solid #c5c5c5;
+}
+footer ul li {
+    float: left;
+    width: 20%;
+    text-align: center;
+    line-height: 17px;
+}
+footer ul li.current p{color: #e60012;}
+footer ul li a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+footer ul li a img {
+    height: 24px;
+}
+footer ul li a p {
+    color: #909090;
+    font-size: 10px;
+}

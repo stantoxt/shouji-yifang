@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+        <link rel="stylesheet" type="text/css" href="css/base.css">
+        <link rel="stylesheet" type="text/css" href="css/RentRoom.css">
+    </head>
+    <body>
+    <header>
+    	<h2>租房</h2>
+        <ol class="mulu">
+            <li>
+                <p>类 型</p>
+                <em><img src="img/down.png"  alt=""></em>
+            </li>
+             <li>
+                <p>租 金</p>
+                <em><img src="img/down.png"  alt=""></em>
+            </li>
+             <li>
+                <p>面 积</p>
+                <em><img src="img/down.png"  alt=""></em>
+            </li>
+             <li>
+                <p>更 多</p>
+                <em><img src="img/down.png"  alt=""></em>
+            </li>
+        </ol>
+    <div class="hideitem" id="hide1" >
+        <ul class="leftlist">
+            <li>附近</li>
+            <li>海州区</li>
+            <li>连云区</li>
+            <li>赣榆区</li>
+            <li>开发区</li>
+            <li>东海</li>
+            <li>灌南</li>
+            <li>灌云</li>
+        </ul>
+
+        <ul class="rightlist" id="child1">
+            <li>1000米以内</li>
+            <li>1500米以内</li>
+            <li>2000米以内</li>
+        </ul>
+
+        <ul class="rightlist" id="child2" style="display:none;">
+            <li>不限</li>
+            <li>新海新区</li>
+            <li>市政府板块</li>
+            <li>凤凰新城</li>
+            <li>主城区</li>
+            <li>城北</li>
+        </ul>
+
+        <ul class="rightlist" id="child3" style="display:none;">
+            <li>不限</li>
+            <li>连云新区</li>
+            <li>墟沟城区</li>
+            <li>CBD商务区</li>
+            <li>平山板块</li>
+            <li>连岛板块</li>
+        </ul>
+
+        <ul class="rightlist" id="child4" style="display:none;">
+            <li>不限</li>
+            <li>青口镇</li>
+            <li>市政府板块</li>
+            <li>凤凰新城</li>
+            <li>主城区</li>
+            <li>城北</li>
+        </ul>
+
+        <ul class="rightlist" id="child5" style="display:none;">
+            <li>不限</li>
+            <li>新海新区</li>
+            <li>市政府板块</li>
+            <li>凤凰新城</li>
+            <li>主城区</li>
+            <li>城北</li>
+        </ul>
+
+        <ul class="rightlist" id="child6" style="display:none;">
+            <li>不限</li>
+            <li>新海新区</li>
+            <li>市政府板块</li>
+            <li>凤凰新城</li>
+            <li>主城区</li>
+            <li>城北</li>
+        </ul>
+
+        <ul class="rightlist" id="child7" style="display:none;">
+            <li>不限</li>
+            <li>新海新区</li>
+            <li>市政府板块</li>
+            <li>凤凰新城</li>
+            <li>主城区</li>
+            <li>城北</li>
+        </ul>
+
+        <ul class="rightlist" id="child8" style="display:none;">
+            <li>不限</li>
+            <li>新海新区</li>
+            <li>市政府板块</li>
+            <li>凤凰新城</li>
+            <li>主城区</li>
+            <li>城北</li>
+        </ul>
+    </div>
+    <div class="hideitem" id="hide2"  >
+        <ul class="full">
+            <li>全部</li>
+            <li>1000以下</li>
+            <li>1000-2500元</li>
+            <li>2500-4000元</li>
+            <li>4000元-6500元</li>
+            <li>6500-8000元</li>
+            <li>8000以上</li>
+        </ul>
+    </div>
+    <div class="hideitem" id="hide3" >
+        <ul class="full">
+            <li>全部</li>
+            <li>60²以下</li>
+            <li>60-90²</li>
+            <li>90-110²</li>
+            <li>110-130²</li>
+            <li>130-144²</li>
+            <li>144²以上</li>
+           
+        </ul>
+    </div>
+    <div class="hideitem" id="hide4" >
+        <ul class="leftlist">
+            <li>房型</li>
+            <li>类型</li>
+            <li>来源</li>
+            <li>楼层</li>
+            <li>装修</li>
+        </ul>
+
+        <ul class="rightlist" id="order1">
+            <li>不限</li>
+            <li>1室</li>
+            <li>2室</li>
+            <li>3室</li>
+            <li>4室</li>
+            <li>5室以上</li>
+        </ul>
+        <ul class="rightlist" id="order2" style="display:none;">
+            <li>全部</li>
+            <li>多层住宅</li>
+            <li>高层住宅</li>
+            <li>小高层住宅</li>
+            <li>排屋</li>
+            <li>别墅</li>
+            <li>小公寓</li>
+            <li>写字楼</li>
+            <li>商铺</li>
+            <li>门面房</li>
+            <li>厂房</li>
+            <li>仓储</li>
+        </ul>
+        <ul class="rightlist" id="order3" style="display:none;">
+            <li>全部</li>
+            <li>中介房源</li>
+            <li>个人房源</li>
+            
+        </ul>
+        <ul class="rightlist" id="order4" style="display:none;">
+            <li>1层</li>
+            <li>2层</li>
+            <li>3层</li>
+            <li>4-6层</li>
+            <li>7-10层</li>
+            <li>11-15层</li>
+            <li>16-20层</li>
+            <li>21层以上</li>
+            
+
+        </ul>
+        <ul class="rightlist" id="order5" style="display:none;">
+            <li>全部</li>
+            <li>毛坯</li>
+            <li>简装</li>
+            <li>精装</li>
+            <li>豪华</li>
+        </ul>
+    </div>
+
+    </header>
+
+    <div class="seach">
+        <input type="text" placeholder=" 请输入关键字…">
+        <em><img src="img/search.png"  alt=""></em>
+    </div>
+    <div class="liangDian">
+       
+        <ul>
+            <li class="oh">
+                <div class="box fl">
+                    <figure><img src="img/pic5.png"  alt=""></figure>
+                     <div class="hanzi">
+                        
+                        <p class="fangjian">软件园周边，靠近金科路</p>
+                        <div class="oh">
+                            <span class="fl greyC">海州区　丁香公馆</span>
+                            <strong class="fr">3500元／月</strong>
+                        </div>
+                        <p class="greyC">128m²　2/1/2</p>
+                        <div class="oh last logoArea">
+                            <span class="fl">10</span>
+                            <span class="fl">1</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="box2 fl oh">
+                    <div id="WriteImg" class="fl bianji">编辑</div>
+                    <div id="DeleteImg" class="fr shanchu">删除</div>
+                
+                </div>
+            </li>
+             <li class="oh">
+                <div class="box fl">
+                    <figure><img src="img/pic5.png"  alt=""></figure>
+                     <div class="hanzi">
+                        
+                        <p class="fangjian">软件园周边，靠近金科路</p>
+                        <div class="oh">
+                            <span class="fl greyC">海州区　丁香公馆</span>
+                            <strong class="fr">3500元／月</strong>
+                        </div>
+                        <p class="greyC">128m²　2/1/2</p>
+                        <div class="oh last logoArea">
+                            <span class="fl">10</span>
+                            <span class="fl">1</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="box2 fl oh">
+                     <div id="WriteImg" class="fl bianji">编辑</div>
+                    <div id="DeleteImg" class="fr shanchu">删除</div>
+                
+                </div>
+            </li>
+             <li class="oh">
+                <div class="box fl">
+                    <figure><img src="img/pic5.png"  alt=""></figure>
+                     <div class="hanzi">
+                        
+                        <p class="fangjian">软件园周边，靠近金科路</p>
+                        <div class="oh">
+                            <span class="fl greyC">海州区　丁香公馆</span>
+                            <strong class="fr">3500元／月</strong>
+                        </div>
+                        <p class="greyC">128m²　2/1/2</p>
+                        <div class="oh last logoArea">
+                            <span class="fl">10</span>
+                            <span class="fl">1</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="box2 fl oh">
+                     <div id="WriteImg" class="fl bianji">编辑</div>
+                    <div id="DeleteImg" class="fr shanchu">删除</div>
+                
+                </div>
+            </li>
+             <li class="oh">
+                <div class="box fl">
+                    <figure><img src="img/pic5.png"  alt=""></figure>
+                     <div class="hanzi">
+                        
+                        <p class="fangjian">软件园周边，靠近金科路</p>
+                        <div class="oh">
+                            <span class="fl greyC">海州区　丁香公馆</span>
+                            <strong class="fr">3500元／月</strong>
+                        </div>
+                        <p class="greyC">128m²　2/1/2</p>
+                        <div class="oh last logoArea">
+                            <span class="fl">10</span>
+                            <span class="fl">1</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="box2 fl oh">
+                     <div id="WriteImg" class="fl bianji">编辑</div>
+                    <div id="DeleteImg" class="fr shanchu">删除</div>
+                
+                </div>
+            </li>
+             <li class="oh">
+                <div class="box fl">
+                    <figure><img src="img/pic5.png"  alt=""></figure>
+                    <div class="hanzi">
+                        
+                        <p class="fangjian">软件园周边，靠近金科路</p>
+                        <div class="oh">
+                            <span class="fl greyC">海州区　丁香公馆</span>
+                            <strong class="fr">3500元／月</strong>
+                        </div>
+                        <p class="greyC">128m²　2/1/2</p>
+                        <div class="oh last logoArea">
+                            <span class="fl">10</span>
+                            <span class="fl">1</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="box2 fl oh">
+                     <div id="WriteImg" class="fl bianji">编辑</div>
+                    <div id="DeleteImg" class="fr shanchu">删除</div>
+                
+                </div>
+            </li>
+           
+        </ul>
+    
+    
+       
+    </div> 
+    <footer>
+        <ul>
+            <li>
+                <a href="二手房.html" data-ajax='false'>
+                    <figure><img src="img/ershouG.png" alt=""></figure>
+                    <p>二手房</p>
+                </a>
+            </li>
+            <li class="current">
+                <a href="租房.html" data-ajax='false'>
+                    <figure><img src="img/redZuF.png" alt=""></figure>
+                    <p>租房</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <figure><img src="img/logo1 (3).png" alt=""></figure>
+                    <p>分销</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <figure><img src="img/logo1 (1).png" ></figure>
+                    <p>客户</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <figure><img src="img/logo1 (2).png" alt=""></figure>
+                    <p>我的</p>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    </body>
+    <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="js/zepto.min.js"></script>
+    <script src="js/touch.js"></script>
+
+  
+   <script type="text/javascript">
+        $('header .hideitem').hide();
+        $('.mulu li').click(function(event) {
+            var num=$(this).index()
+            $(this).addClass('active').siblings('li').removeClass('active')
+            $(this).find('img').attr('src','img/redUp.png');
+             $(this).siblings('li').find('img').attr('src','img/down.png')
+             $('header .hideitem').eq(num).show().siblings('.hideitem').hide()
+        });
+
+        $('#hide1 .leftlist li').click(function(event) {
+
+            var num1=$(this).index()
+             
+            $('.rightlist').eq(num1).show().siblings('.rightlist').hide()
+        });
+
+        $('#hide4 .leftlist li').click(function(event) {
+
+            var key=$(this).index();
+             alert(key);
+            $('.rightlist').eq(key).show().siblings('.rightlist').hide()
+        });
+   </script>
+   
+   <script type="text/javascript">
+        $(function() {
+              
+                    $(".liangDian ul li").on("swipeLeft", function(event) {
+                        $(this).stop().animate({
+                            "margin-left": "-30%"
+                        },500).siblings('li').stop().animate({
+                            "margin-left": "0"
+                        },500);
+
+                    });
+                     $(".liangDian ul li").on("swipeRight", function(event) {
+                        $(this).stop().animate({
+                            "margin-left": "0"
+                        },500);
+                    });
+               
+            });
+   </script>
+   <script type="text/javascript">
+        $('.shanchu').click(function(event) {
+           $(this).parents('li').remove()
+        });
+   </script>
+</html>

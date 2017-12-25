@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+        <link rel="stylesheet" type="text/css" href="css/base.css">
+        <link rel="stylesheet" type="text/css" href="css/kehuxihao.css">
+    </head>
+    <body>
+     <header>
+    	<h2>客户喜好</h2>
+    </header>
+    
+
+    <div class="huxing">
+        <span>户　　型：</span>
+        <ul>
+            <li  class="active">
+                <input type="checkbox" value="1室">1室
+                
+            </li>
+            <li>
+                 <input type="checkbox" value="2室" checked>2室
+                
+            </li>
+            <li>
+                 <input type="checkbox" value="3室">3室
+               
+            </li>
+            <li>
+                 <input type="checkbox" value="4室">4室
+               
+            </li>
+             <li>
+                 <input type="checkbox" value="5室以上">5室以上
+                
+            </li>
+            
+        </ul>
+    </div>
+
+
+
+    <div class="mianji">
+        <span>面　　积：</span>
+        <ul>
+            <li>
+                 <input type="checkbox" value="60以下">60以下
+                
+            </li>
+            <li  class="active">
+                 <input type="checkbox" value="60-90">60-90
+                
+            </li>
+            <li>
+                 <input type="checkbox" value="90-110">90-110
+               
+            </li>
+            <li>
+                <input type="checkbox" value="110-130" checked>110-130
+               
+            </li>
+            <li>
+                <input type="checkbox" value="130-144">130-144
+                
+            </li>
+            <li>
+                <input type="checkbox" value="144以上">144以上
+                
+            </li>
+           
+        </ul>
+    </div>
+
+    <div class="price">
+        <span>总　　价：</span>
+        <ul>
+            <li>
+                <input type="checkbox" value="30-40万">30-40万
+                
+            </li>
+            <li>
+                 <input type="checkbox" value="40-50万">40-50万
+                
+            </li>
+            <li class="active">
+                 <input type="checkbox" value="50-60万" checked>50-60万
+                
+            </li>
+            <li>
+                 <input type="checkbox" value="60-70万">60-70万
+                
+            </li>
+            <li>
+                 <input type="checkbox" value="70-80万">70-80万
+                
+            <li>
+                <input type="checkbox" value="80万以上">80万以上
+                
+            </li>
+           
+           
+           
+        </ul>
+    </div>
+
+<div class="louceng">
+        <span>楼　　层：</span>
+        <ul>
+            <li>
+                <input type="checkbox" value="1">1
+               
+            </li>
+            <li>
+                 <input type="checkbox" value="2">2
+               
+            </li>
+            <li class="active">
+                <input type="checkbox" value="3">3
+               
+            </li>
+            <li>
+                 <input type="checkbox" value="4-6" checked>4-6
+                
+            </li>
+            <li>
+                 <input type="checkbox" value="7-12">7-12
+                
+            </li>
+            <li>
+                <input type="checkbox" value="20+">20+
+                
+            </li>
+            <li>
+                 <input type="checkbox" value="顶层">顶层
+                
+            </li>
+           
+           
+           
+        </ul>
+    </div>
+
+
+    <div class="leixing">
+        <span>类　　型：</span>
+        <ul>
+            <li>
+                <input type="checkbox" value="多层住宅">多层住宅
+                
+            </li>
+            <li>
+                <input type="checkbox" value="高层住宅" checked>高层住宅
+                
+            </li>
+            <li class="active">
+                <input type="checkbox" value="小高层">小高层
+               
+            </li>
+            <li>
+                 <input type="checkbox" value="小公寓">小公寓
+               
+            </li>
+            <li>
+                <input type="checkbox" value="排屋">排屋
+              
+            </li>
+            <li>
+                <input type="checkbox" value="别墅" checked>别墅
+              
+            </li>
+            <li>
+                 <input type="checkbox" value="写字楼">写字楼
+                
+            </li>
+            <li>
+                <input type="checkbox" value="商铺">商铺
+              
+            </li>
+            <li>
+                <input type="checkbox" value="广场">广场
+              
+            </li>
+           
+           
+           
+        </ul>
+    </div>
+
+    <div class="bankuan">
+    <span>版　　块：</span>
+        <ul>
+            <li>
+               <p>[ 海州区 ]中心区</p> 
+               <i>
+                   <img src="img/xx.png"  alt="">
+               </i>
+            </li>
+            <li>
+               <p>[ 海州区 ]中心区</p> 
+               <i>
+                   <img src="img/xx.png"  alt="">
+               </i>
+            </li>
+            <li>
+               <p>[ 海州区 ]中心区</p> 
+               <i>
+                   <img src="img/xx.png"  alt="">
+               </i>
+            </li>
+        </ul>
+        <figure>
+            <img src="img/add.png"  alt="">
+        </figure>
+    </div>
+    
+    
+
+    <footer>
+        <p>确 定</p>
+    </footer>
+   
+    
+   
+    
+    
+    </body>
+    <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript">
+    
+
+     
+     $('.bankuan i').live('click',function(){
+        $(this).parents('li').remove();
+     })
+     $('.bankuan figure').click(function(event) {
+         $('.bankuan ul').append(
+             '<li>'+
+               '<p>[ 海州区 ]中心区</p>'+ 
+               '<i>'+
+                   '<img src="img/xx.png"  alt="">'+
+               '</i>'+
+            '</li>'
+            )
+     });
+    </script>
+</html>

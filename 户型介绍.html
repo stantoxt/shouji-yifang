@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+        <link rel="stylesheet" type="text/css" href="css/base.css">
+        <link rel="stylesheet" type="text/css" href="css/HouseTypeIntroduce.css">
+    </head>
+    <body>
+    <header>
+    	<h2>户型介绍</h2>
+    </header>
+    <div class="banner">
+    	<figure><img src="img/pic2.png"  alt=""></figure>
+    </div>
+    <div class="Details">
+    	<h2 class="section">九龙玉府 E户型</h2>
+    	
+    	
+    	<ul class="section">
+    		<li>
+    			<p class="fl"><span>总　　价：</span><strong>约89万元</strong></p>
+                <h6 class="fr">房贷计算</h6>
+    		</li>
+    		<li>
+    			<p><span>房　　型：</span>3/2/1</p>
+    		</li>
+    		<li>
+    			<p><span>面　　积：</span>约122m²</p>
+    		</li>
+    		<li>
+    			<p><span>套　　内：</span>约98m²<span>(得房率81%)</span></p>
+    		</li>
+    		<li>
+    			<p><span>均　　价：</span>8000元/m²</p>
+    		</li>
+
+    		
+    		
+    	</ul>
+    	
+    </div>
+    
+    <div class="fangYintroduce">
+    	<h2><em></em>户型介绍</h2>
+    	<ul>
+    		<li><p>教育特色</p></li>
+    		<li><p>现代简约</p></li>
+    		<li><p>交通便捷</p></li>
+    	</ul>
+    	<div class="wenzi">
+    		<p>该户型为经典3室户，动静分离高得房率，适宜居住.该户型为经典3室户</p>
+    	</div>
+    </div>
+    
+    <div class="availableHouse">
+    <h2><em></em>可售房源</h2>
+        <ul>
+            <li><p>10#楼-2-201</p></li>
+            <li><p>10#楼-2-201</p></li>
+            <li><p>10#楼-2-201</p></li>
+            <li><p>10#楼-2-201</p></li>
+            <li><p>10#楼-2-201</p></li>
+            <li><p>10#楼-2-201</p></li>
+            <li><p>10#楼-2-201</p></li>
+            <li><p>10#楼-2-201</p></li>
+            <li><p>10#楼-2-201</p></li>
+            <li><p>10#楼-2-201</p></li>
+            <li><p>10#楼-2-201</p></li>
+            <li><p>10#楼-2-201</p></li>
+            <li><p>12#楼-2-201</p></li>
+            <li><p>12#楼-2-201</p></li>
+            <li><p>12#楼-2-201</p></li>
+            <li><p>12#楼-2-201</p></li>
+            <li><p>12#楼-2-201</p></li>
+        </ul>
+        <div class="Lookhouses"><p>查看更多房源</p></div>
+    </div>
+    <footer>
+        <ul>
+                <li>
+                    <img src="img/share.png"  alt="">
+                    <p>分享</p>
+                </li>
+                <li>
+                    <img src="img/phone.png"  alt="">
+                    <p>直拨客服</p>
+                </li>
+                <li><h3>添加意向客户</h3></li>
+
+            </ul>
+    </footer>
+    </body>
+    <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript">
+    	$(".availableHouse li:gt(8)").hide()
+        var flag=0;
+        
+        $(".Lookhouses p").click(function(event) {
+
+            if(flag==0)
+            {
+               $(".availableHouse li:gt(8)").show();
+            $(".Lookhouses p").html('没有更多房源')
+            flag=1
+            }
+            else{
+                $(".availableHouse li:gt(8)").hide();
+            $(".Lookhouses p").html('查看更多房源')
+            flag=0
+            }
+                
+        });
+    		
+    </script>
+</html>

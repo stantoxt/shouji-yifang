@@ -1,0 +1,108 @@
+/*
+* @Author: suntoo_2016_001
+* @Date:   2016-09-13 14:13:58
+* @Last Modified by:   suntoo_2016_001
+* @Last Modified time: 2016-09-19 10:30:17
+*/
+body{background: #efeff4}
+header{
+    width: 100%;
+    position: fixed;
+    
+    height: 45px;
+    top: 0;
+    z-index: 100000;
+    
+}
+header h2{
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    background: #e60012;
+    font-size: 19px;
+}
+.section{padding:0 10px;}
+.banner{
+	width: 100%;
+	padding-top: 45px;
+}
+.banner figure{width: 100%;}
+.banner figure img{width: 100%;display: block;}
+
+.Details{background: #fff;padding-bottom:4px; }
+.Details h2{ font-size: 16px;line-height: 40px; }
+.Details ul li{margin-bottom: 7px;}
+.Details ul li:first-child{ overflow: hidden; }
+.Details ul li:first-child h6{
+	padding-left: 13px;
+	color:#909090;
+	background: url(../img/mobile.png) no-repeat left center;
+	background-size: 10px 13px;
+	 }
+.Details ul li span{
+	color: #909090;
+}
+.Details ul li strong{color:#e90000;font-weight: 100; }
+
+.fangYintroduce{
+	margin-top: 10px;
+	padding: 10px 10px;
+	background: #fff;
+	margin-bottom: 10px;
+}
+.fangYintroduce h2{
+	font-size: 16px;
+	margin-bottom: 15px;
+	position: relative;
+	padding-left: 6px;
+}
+.fangYintroduce h2 em{width: 3px ;height: 16px;background: #e50014;position: absolute;top: 3px;left: 0; margin-right: 5px;}
+.fangYintroduce ul{overflow: hidden;}
+.fangYintroduce li
+{	width: 60px;height: 18px;
+	border: 1px solid #ff0000;
+	color: #e60012;
+	line-height: 18px;text-align: center;
+	margin-right: 13px;
+	float: left;
+}
+.fangYintroduce .wenzi p{line-height: 27px;margin-top: 10px;}
+
+.availableHouse{ padding: 10px;background:#fff; margin-bottom: 60px;}
+.availableHouse h2{
+	font-size: 16px;
+	margin-bottom: 15px;
+	position: relative;
+	padding-left: 6px;
+}
+.availableHouse h2 em{width: 3px ;height: 16px;background: #e50014;position: absolute;top: 3px;left: 0; margin-right: 5px;}
+.availableHouse ul{
+	width: 100%;
+	overflow: hidden;
+}
+.availableHouse ul li{ 
+	width: 31.3%;
+	float: left;
+	border:1px solid #d9dadb;
+	box-sizing:border-box;
+	margin-bottom: 15px;
+	text-align: center;
+	padding: 5px 0;
+	 
+}
+.availableHouse ul li:nth-child(3n+1){float: left;}
+.availableHouse ul li:nth-child(3n+2){float: left;margin-left:3%;}
+.availableHouse ul li:nth-child(3n+3){float: right;}
+.Lookhouses p{text-align: center;color: #e60012}
+footer{width: 100%;height: 50px;position: fixed;bottom: 0;
+    z-index: 10000;}
+footer ul{width: 100%;height: 50px;}
+footer ul li img{ width: 17px; }
+footer ul{ width: 100%; border-top: 1px solid #d3d3d3}
+footer ul li{box-sizing:border-box;float: left;height: 50px;background: #fff;width: 25%;text-align: center;padding: 8px 0;}
+footer ul li:first-child{
+	border-right: 1px solid #d3d3d3
+}
+footer ul li p{color: #999;}
+footer ul li h3{line-height:34px;color: #fff;}
+footer ul li:last-child{background: #ff0000;width: 50%;}

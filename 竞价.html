@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+        <link rel="stylesheet" type="text/css" href="css/base.css">
+        <link rel="stylesheet" type="text/css" href="css/jingJia.css">
+    </head>
+    <body>
+     <header>
+        <h2>竞价排序</h2>
+    </header>
+    <div class="jinjia">
+    	<h2>当前推荐位每次点击所需要的积分： </h2>
+    	<ul>
+    		<li class="current">位置一/<strong>100分</strong></li>
+    		<li>位置一/<strong>100分</strong></li>
+    		<li>位置一/<strong>100分</strong></li>
+    		<li>位置一/<strong>100分</strong></li>
+    		<li>位置一/<strong>100分</strong></li>
+    		<li>位置一/<strong>100分</strong></li>
+    	</ul>
+    	<div class="jiFen">
+    		<span>当前可用积分：<strong>9999 </strong>积分</span>
+    	</div>
+    	<div class="chujia">
+    	<p>我对该位置出价：</p>
+    		<input type="text" placeholder="200">　分/每次
+    	</div>
+    	<div class="btn">
+    		<p>取 消 竞 拍</p>
+    	</div>
+    </div>
+    <div class="chongxin">
+    	<h2>重新竞拍</h2>
+    	<a href="javascript:;">系统每小时自动按照分值价格高低进行排序 </a>
+    	<p>竞价规则说明：(推荐标签+分值高低）<br/>
+			1.系统每小时整点刷新，按照所有推荐房源+分值高低进行推荐位
+			刷新一次，取前6位；<br/>
+			2.前台网友点击次数X位置价格/每次(1次X位置1X10分)；<br/>
+			3.1个IP1小时内点击只计分1次；<br/>
+			4.最低出价分不能低于10分/次；<br/>
+			5.每天最高按照点击次数100次/扣分，超过100次后的点击不继续
+			扣除分值；<br/>
+			6.客户取消推荐，按照报价的1/3扣费保留一个小时，在一个小时
+			之后，系统在前面页面刷新掉客户取消保留的房源；<br/>
+			7.刷新掉客户取消保留的房源后，按照最新的整点竞价分值高低重
+			新排序；<br/>
+			8.客户账户积分最少不能低于当前位置点击次数10次x价格(10分)，
+			则不能参与竞价；<br/>
+			9.积分消耗为0的时候，下次整点刷新，系统取消推荐资质。</p>
+
+    </div>
+    </body>
+</html>
